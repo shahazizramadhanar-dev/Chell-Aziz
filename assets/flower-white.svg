@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="wo" cx="50%" cy="20%" r="85%">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#e3d0ac"/>
+    </radialGradient>
+    <radialGradient id="wm" cx="50%" cy="20%" r="85%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ead9b9"/>
+    </radialGradient>
+    <radialGradient id="wi" cx="50%" cy="20%" r="85%">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#dcc59b"/>
+    </radialGradient>
+    <linearGradient id="wl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b5a34"/>
+      <stop offset="1" stop-color="#1a2d14"/>
+    </linearGradient>
+    <radialGradient id="wc" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f3dcaa"/>
+      <stop offset="1" stop-color="#b98f52"/>
+    </radialGradient>
+  </defs>
+
+  <!-- leaves -->
+  <g fill="url(#wl)" opacity="0.95">
+    <path d="M150 150 C 60 120, 20 60, 40 20 C 100 40, 140 90, 150 150 Z"/>
+    <path d="M150 150 C 240 120, 280 60, 260 20 C 200 40, 160 90, 150 150 Z"/>
+    <path d="M150 150 C 70 190, 20 250, 45 285 C 105 265, 145 215, 150 150 Z"/>
+    <path d="M150 150 C 230 190, 280 250, 255 285 C 195 265, 155 215, 150 150 Z"/>
+  </g>
+  <g stroke="#8fae7e" stroke-opacity="0.5" stroke-width="1" fill="none">
+    <path d="M150 150 C 100 110, 70 70, 48 28"/>
+    <path d="M150 150 C 200 110, 230 70, 252 28"/>
+    <path d="M150 150 C 100 190, 70 235, 52 278"/>
+    <path d="M150 150 C 200 190, 230 235, 248 278"/>
+  </g>
+
+  <!-- outer petals -->
+  <g fill="url(#wo)" stroke="#b98f52" stroke-opacity="0.4" stroke-width="1">
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(0 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(45 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(90 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(135 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(180 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(225 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(270 150 150)"/>
+    <ellipse cx="150" cy="82" rx="38" ry="68" transform="rotate(315 150 150)"/>
+  </g>
+
+  <!-- middle petals -->
+  <g fill="url(#wm)" stroke="#b98f52" stroke-opacity="0.35" stroke-width="1">
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(22 150 150)"/>
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(82 150 150)"/>
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(142 150 150)"/>
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(202 150 150)"/>
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(262 150 150)"/>
+    <ellipse cx="150" cy="98" rx="30" ry="52" transform="rotate(322 150 150)"/>
+  </g>
+
+  <!-- inner petals -->
+  <g fill="url(#wi)" stroke="#b98f52" stroke-opacity="0.35" stroke-width="1">
+    <ellipse cx="150" cy="114" rx="22" ry="36" transform="rotate(0 150 150)"/>
+    <ellipse cx="150" cy="114" rx="22" ry="36" transform="rotate(72 150 150)"/>
+    <ellipse cx="150" cy="114" rx="22" ry="36" transform="rotate(144 150 150)"/>
+    <ellipse cx="150" cy="114" rx="22" ry="36" transform="rotate(216 150 150)"/>
+    <ellipse cx="150" cy="114" rx="22" ry="36" transform="rotate(288 150 150)"/>
+  </g>
+
+  <!-- petal veins -->
+  <g stroke="#b98f52" stroke-opacity="0.25" stroke-width="1" fill="none">
+    <path d="M150 150 L150 40"/>
+    <path d="M150 150 L228 72"/>
+    <path d="M150 150 L260 150"/>
+    <path d="M150 150 L228 228"/>
+    <path d="M150 150 L150 260"/>
+    <path d="M150 150 L72 228"/>
+    <path d="M150 150 L40 150"/>
+    <path d="M150 150 L72 72"/>
+  </g>
+
+  <!-- heart + stamens -->
+  <circle cx="150" cy="150" r="20" fill="url(#wc)"/>
+  <g fill="#8a6a3a">
+    <circle cx="150" cy="140" r="2.2"/><circle cx="160" cy="146" r="2.2"/>
+    <circle cx="158" cy="158" r="2.2"/><circle cx="146" cy="160" r="2.2"/>
+    <circle cx="140" cy="148" r="2.2"/><circle cx="150" cy="150" r="2.6"/>
+  </g>
+</svg>

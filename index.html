@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#1f1209">
+    <title>Chell & Aziz — Undangan Pernikahan</title>
+    <meta name="description" content="Kami mengundang Anda di pernikahan Chell & Aziz, 01 Desember 2026, Surabaya.">
+    <meta property="og:title" content="The Wedding of Chell & Aziz">
+    <meta property="og:description" content="Selasa, 01 Desember 2026 · Grand Ballroom, Hotel Majestic Palace, Surabaya">
+    <meta property="og:image" content="assets/foto-1.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+
+    <div class="progress" id="progress"></div>
+    <canvas id="petals" aria-hidden="true"></canvas>
+
+    <!-- ============ COVER ============ -->
+    <div class="opening" id="opening">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <img class="cover-flower cf-tl" src="assets/flower-burgundy.svg" alt="">
+        <img class="cover-flower cf-br" src="assets/flower-white.svg" alt="">
+        <img class="cover-silk" src="assets/silk-burgundy.svg" alt="">
+        <div class="cover-inner">
+            <img class="monogram" src="assets/monogram.svg" alt="Monogram C &amp; A">
+            <p class="eyebrow">THE WEDDING OF</p>
+            <h1>
+                <span class="n">Chell</span>
+                <span class="amp">&amp;</span>
+                <span class="n">Aziz</span>
+            </h1>
+            <p class="opening-date">01 · 12 · 2026</p>
+
+            <div class="guest-box">
+                <p>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+                <h3 id="guestName">Tamu Undangan</h3>
+                <small>Mohon maaf apabila ada kesalahan penulisan nama/gelar</small>
+            </div>
+
+            <button class="gold-btn filled" id="openInvitation">
+                <span>✉</span> Buka Undangan
+            </button>
+        </div>
+    </div>
+
+    <!-- ============ HERO ============ -->
+    <header class="hero section" id="home">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-glow"></div>
+        <div class="frame"></div>
+        <img class="flower hero-fl-l" src="assets/flower-burgundy.svg" alt="">
+        <img class="flower hero-fl-r" src="assets/flower-white.svg" alt="">
+        <img class="hero-silk" src="assets/silk-burgundy.svg" alt="">
+
+        <div class="hero-content">
+            <p class="eyebrow reveal">UNDANGAN PERNIKAHAN</p>
+            <h2 class="reveal d1">
+                <span class="n">Chell</span>
+                <span class="amp">&amp;</span>
+                <span class="n">Aziz</span>
+            </h2>
+            <div class="ornament reveal d2"><i></i><b>✦</b><i></i></div>
+            <p class="hero-date reveal d2">SELASA · 01 DESEMBER 2026</p>
+            <p class="hero-place reveal d3">Surabaya, Jawa Timur</p>
+        </div>
+
+        <div class="scroll-cue"><i></i>SCROLL</div>
+    </header>
+
+    <main>
+
+        <!-- ============ INTRO ============ -->
+        <section class="cream section" id="intro">
+            <div class="container narrow">
+                <p class="eyebrow dark reveal">DENGAN PENUH CINTA</p>
+                <h2 class="script reveal d1">Kami Mengundang Anda</h2>
+                <div class="ornament dark reveal d1"><i></i><b>✦</b><i></i></div>
+                <p class="copy reveal d2">
+                    Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i
+                    untuk hadir dan menjadi bagian dari hari bahagia kami.
+                </p>
+                <p class="quote reveal d3">
+                    “Cinta bukan hanya tentang menemukan seseorang untuk hidup bersama,
+                    tetapi tentang menemukan seseorang yang membuat hidup terasa lebih berarti.”
+                </p>
+            </div>
+            <img class="silk-bottom" src="assets/silk-burgundy.svg" alt="">
+        </section>
+
+        <!-- ============ COUPLE ============ -->
+        <section class="wine section" id="couple">
+            <div class="container">
+                <p class="eyebrow reveal">PASANGAN PENGANTIN</p>
+                <h2 class="script reveal d1">Mempelai</h2>
+
+                <div class="couple-grid">
+                    <article class="person reveal from-left">
+                        <div class="portrait">
+                            <div class="ph"><span>C</span></div>
+                            <img src="assets/pengantin-wanita.jpg" alt="Chell" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <h3>Chell</h3>
+                        <p class="role">PENGANTIN WANITA</p>
+                        <p class="parents">Putri dari<br>Bapak Hartono &amp; Ibu Hartini</p>
+                        <a class="ig" href="https://instagram.com/" target="_blank" rel="noopener">@chell</a>
+                    </article>
+
+                    <div class="amp-big reveal">&amp;</div>
+
+                    <article class="person reveal from-right">
+                        <div class="portrait">
+                            <div class="ph"><span>A</span></div>
+                            <img src="assets/pengantin-pria.jpg" alt="Aziz" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <h3>Aziz</h3>
+                        <p class="role">PENGANTIN PRIA</p>
+                        <p class="parents">Putra dari<br>Bapak Susanto &amp; Ibu Susanti</p>
+                        <a class="ig" href="https://instagram.com/" target="_blank" rel="noopener">@aziz</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SAVE THE DATE + COUNTDOWN ============ -->
+        <section class="date-section section" id="date">
+            <img class="flower flower-r" src="assets/flower-burgundy.svg" alt="">
+            <img class="flower flower-l" src="assets/flower-white.svg" alt="">
+            <div class="container narrow">
+                <p class="eyebrow reveal">SAVE THE DATE</p>
+                <h2 class="big reveal d1">Selasa</h2>
+
+                <div class="date reveal d1">
+                    <strong>01</strong>
+                    <div>
+                        <span>DESEMBER</span>
+                        <b>2026</b>
+                    </div>
+                </div>
+
+                <div class="count reveal d2">
+                    <div><strong id="days">00</strong><span>HARI</span></div>
+                    <div><strong id="hours">00</strong><span>JAM</span></div>
+                    <div><strong id="minutes">00</strong><span>MENIT</span></div>
+                    <div><strong id="seconds">00</strong><span>DETIK</span></div>
+                </div>
+
+                <p class="copy reveal d3">
+                    Satu hari, satu janji, dan satu kisah yang akan kami mulai bersama.
+                </p>
+
+                <button class="gold-btn reveal d3" id="addCalendar">＋ Simpan ke Kalender</button>
+            </div>
+        </section>
+
+        <!-- ============ EVENTS ============ -->
+        <section class="cream section" id="events">
+            <div class="container">
+                <p class="eyebrow dark reveal">WEDDING EVENT</p>
+                <h2 class="script small reveal d1">Waktu &amp; Tempat</h2>
+
+                <img class="envelope reveal d1" src="assets/envelope.svg" alt="Amplop undangan">
+
+                <div class="event-grid">
+                    <article class="event-card reveal from-left">
+                        <div class="ev-icon">💍</div>
+                        <h3>Prosesi Pernikahan</h3>
+                        <p class="ev-day">Selasa, 01 Desember 2026</p>
+                        <p class="ev-time">14.30 WIB</p>
+                        <p class="ev-note">Registrasi tamu mulai 13.30 WIB</p>
+                    </article>
+
+                    <article class="event-card reveal from-right">
+                        <div class="ev-icon">🥂</div>
+                        <h3>Resepsi</h3>
+                        <p class="ev-day">Selasa, 01 Desember 2026</p>
+                        <p class="ev-time">19.00 – 21.00 WIB</p>
+                        <p class="ev-note">Jamuan makan malam bersama</p>
+                    </article>
+                </div>
+
+                <div class="venue-box reveal d1">
+                    <h3 class="venue">Grand Ballroom</h3>
+                    <p>Hotel Majestic Palace</p>
+                    <p class="muted">Jl. Embong No. 16, Surabaya, Jawa Timur</p>
+                    <div class="btn-row">
+                        <a class="gold-btn dark" target="_blank" rel="noopener"
+                           href="https://www.google.com/maps/search/?api=1&query=Hotel+Majestic+Palace+Surabaya">Lihat Lokasi</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TIMELINE ============ -->
+        <section class="wine section" id="rundown">
+            <div class="container">
+                <p class="eyebrow reveal">WEDDING DAY</p>
+                <h2 class="script reveal d1">Rangkaian Acara</h2>
+
+                <div class="timeline">
+                    <div class="item reveal"><b>13.00</b><i></i><div><h3>Kedatangan Tamu</h3><p>Para tamu dipersilakan hadir dan menikmati suasana acara.</p></div></div>
+                    <div class="item reveal"><b>13.30</b><i></i><div><h3>Registrasi</h3><p>Registrasi dan penerimaan tamu undangan.</p></div></div>
+                    <div class="item reveal"><b>14.30</b><i></i><div><h3>Prosesi Pernikahan</h3><p>Prosesi sakral pernikahan Chell &amp; Aziz.</p></div></div>
+                    <div class="item reveal"><b>19.00</b><i></i><div><h3>Resepsi</h3><p>Jamuan dan perayaan bersama keluarga serta sahabat.</p></div></div>
+                    <div class="item reveal"><b>21.00</b><i></i><div><h3>Penutupan</h3><p>Terima kasih telah menjadi bagian dari hari kami.</p></div></div>
+                </div>
+            </div>
+            <img class="silk-bottom" src="assets/silk-burgundy.svg" alt="">
+        </section>
+
+        <!-- ============ GALLERY ============ -->
+        <section class="cream section tall" id="gallery">
+            <div class="container">
+                <p class="eyebrow dark reveal">OUR MOMENTS</p>
+                <h2 class="script small reveal d1">Galeri Kami</h2>
+
+                <div class="gallery">
+                    <figure class="g g1 reveal"><div class="ph"><span>✿</span></div><img src="assets/foto-1.jpg" alt="Foto 1" loading="lazy" onerror="this.remove()"></figure>
+                    <figure class="g g2 reveal d1"><div class="ph"><span>♡</span></div><img src="assets/foto-2.jpg" alt="Foto 2" loading="lazy" onerror="this.remove()"></figure>
+                    <figure class="g g3 reveal d2"><div class="ph"><span>✦</span></div><img src="assets/foto-3.jpg" alt="Foto 3" loading="lazy" onerror="this.remove()"></figure>
+                    <figure class="g g4 reveal"><div class="ph"><span>♡</span></div><img src="assets/foto-4.jpg" alt="Foto 4" loading="lazy" onerror="this.remove()"></figure>
+                    <figure class="g g5 reveal d1"><div class="ph"><span>✿</span></div><img src="assets/foto-5.jpg" alt="Foto 5" loading="lazy" onerror="this.remove()"></figure>
+                    <figure class="g g6 reveal d2"><div class="ph"><span>✦</span></div><img src="assets/foto-6.jpg" alt="Foto 6" loading="lazy" onerror="this.remove()"></figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ DRESS CODE ============ -->
+        <section class="wine section" id="dress">
+            <div class="container narrow">
+                <p class="eyebrow reveal">DRESS CODE</p>
+                <h2 class="script small reveal d1">Wedding Attire</h2>
+                <p class="copy reveal d2">
+                    Untuk menyelaraskan suasana perayaan, kami mengundang Anda
+                    mengenakan warna bernuansa elegan berikut.
+                </p>
+                <div class="palette reveal d3">
+                    <div><i class="c1"></i>Sogan</div>
+                    <div><i class="c2"></i>Indigo</div>
+                    <div><i class="c3"></i>Champagne</div>
+                    <div><i class="c4"></i>Cream</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ GIFT ============ -->
+        <section class="cream section" id="gift">
+            <div class="container narrow">
+                <p class="eyebrow dark reveal">WEDDING GIFT</p>
+                <h2 class="script small reveal d1">Amplop Digital</h2>
+                <p class="copy reveal d2">
+                    Doa restu Anda adalah hadiah terindah bagi kami. Namun apabila
+                    ingin memberikan tanda kasih, dapat melalui rekening berikut.
+                </p>
+
+                <div class="cards">
+                    <div class="bank reveal from-left">
+                        <small>BANK BCA</small>
+                        <strong id="acc1">49498928928</strong>
+                        <p>a.n. Aziz</p>
+                        <button class="gold-btn dark mini" data-copy="acc1">Salin Nomor</button>
+                    </div>
+                    <div class="bank reveal from-right">
+                        <small>BANK MANDIRI</small>
+                        <strong id="acc2">0920193898</strong>
+                        <p>a.n. Chell</p>
+                        <button class="gold-btn dark mini" data-copy="acc2">Salin Nomor</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ RSVP + WISHES ============ -->
+        <section class="wine section tall" id="rsvp-section">
+            <div class="container narrow">
+                <p class="eyebrow reveal">RSVP</p>
+                <h2 class="script small reveal d1">Konfirmasi Kehadiran</h2>
+                <p class="copy reveal d2">
+                    Mohon konfirmasi agar kami dapat mempersiapkan acara
+                    dengan sebaik-baiknya.
+                </p>
+
+                <form id="rsvp" class="reveal d2">
+                    <label>Nama Lengkap
+                        <input id="name" required placeholder="Nama Anda" autocomplete="name">
+                    </label>
+
+                    <label>Kehadiran
+                        <select id="attendance" required>
+                            <option value="">Pilih jawaban</option>
+                            <option>Ya, saya akan hadir</option>
+                            <option>Maaf, saya tidak dapat hadir</option>
+                        </select>
+                    </label>
+
+                    <label>Jumlah Tamu
+                        <select id="guests">
+                            <option>1 Orang</option>
+                            <option>2 Orang</option>
+                            <option>3 Orang</option>
+                            <option>4 Orang</option>
+                        </select>
+                    </label>
+
+                    <label>Kirim Konfirmasi Ke
+                        <select id="sendTo">
+                            <option value="0">Aziz (Mempelai Pria)</option>
+                            <option value="1">Chell (Mempelai Wanita)</option>
+                        </select>
+                    </label>
+
+                    <label>Ucapan &amp; Doa
+                        <textarea id="message" rows="4" placeholder="Tulis ucapan..."></textarea>
+                    </label>
+
+                    <button class="gold-btn filled" type="submit">Kirim RSVP via WhatsApp</button>
+                </form>
+
+                <div class="wishes reveal">
+                    <h3>Ucapan untuk Kami</h3>
+                    <div id="wishList"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CLOSING ============ -->
+        <section class="closing section" id="closing">
+            <img class="flower closing-fl-l" src="assets/flower-burgundy.svg" alt="">
+            <img class="flower closing-fl-r" src="assets/flower-white.svg" alt="">
+            <div class="container narrow">
+                <img class="monogram small reveal" src="assets/monogram.svg" alt="Monogram C &amp; A">
+                <p class="quote light reveal d1">
+                    Merupakan suatu kehormatan bagi kami apabila Anda dapat hadir
+                    dan berbagi kebahagiaan bersama kami.
+                </p>
+                <h2 class="closing-names reveal d2">
+                    <span class="n">Chell</span>
+                    <span class="amp">&amp;</span>
+                    <span class="n">Aziz</span>
+                </h2>
+                <p class="hero-date reveal d3">01 · 12 · 2026</p>
+                <div class="ornament reveal d3"><i></i><b>✦</b><i></i></div>
+                <small class="with-love reveal d3">WITH LOVE</small>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="dock" id="dock" aria-label="Navigasi">
+        <a href="#home" title="Beranda">⌂</a>
+        <a href="#couple" title="Mempelai">♡</a>
+        <a href="#events" title="Acara">✦</a>
+        <a href="#gallery" title="Galeri">❖</a>
+        <a href="#rsvp-section" title="RSVP">✉</a>
+    </nav>
+
+    <button class="music" id="musicToggle" aria-label="Putar atau hentikan musik">♫</button>
+    <audio id="musicAudio" loop preload="none" src="assets/lagu.mp3"></audio>
+
+    <div class="toast" id="toast" role="status"></div>
+    <div class="lightbox" id="lightbox"><img alt=""></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
